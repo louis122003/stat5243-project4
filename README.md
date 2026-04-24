@@ -1,2 +1,5 @@
 # stat5243-project4
-The files and descriptions are shown below
+The raw data is 134MB which cannot be uploaded. Please read or download it from Kaggle. The link is shown below
+https://www.kaggle.com/datasets/kartik2112/fraud-detection/data?select=fraudTrain.csv
+
+
