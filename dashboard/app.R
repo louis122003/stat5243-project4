@@ -457,8 +457,12 @@ server <- function(input, output, session) {
   })
   
   output$total_features <- renderValueBox({
+    feature_count <- fraud_data %>%
+      select(-is_fraud, -fraud_label, -late_night_label) %>%
+      ncol()
+    
     valueBox(
-      value = ncol(fraud_data) - 2,
+      value = feature_count,
       subtitle = "Modeling Features",
       icon = icon("columns"),
       color = "aqua"
@@ -908,3 +912,4 @@ server <- function(input, output, session) {
 # ------------------------------------------------------
 
 shiny::shinyApp(ui = ui, server = server)
+
