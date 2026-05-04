@@ -4,3 +4,7 @@ The raw data of fraudTest and poverty rate are large which cannot be uploaded. I
 https://www.kaggle.com/datasets/kartik2112/fraud-detection/data?select=fraudTrain.csv
 
 The cleaned dataset (our final dataset) called fraudTest_clean.csv is already uploaded. 
+
+The project includes introduction, data cleaning and preprocessing, EDA, feature engineering, modeling and validation. Our goal is to examine the relationships between credit card and features. In addition to the report, we make a dashboard which may give a quick view of the whole project. The link is shown below: 
+https://mia123.shinyapps.io/fraud-detection-dashboard/
+
