@@ -8,3 +8,4 @@ The cleaned dataset (our final dataset) called fraudTest_clean.csv is already up
 The project includes introduction, data cleaning and preprocessing, EDA, feature engineering, modeling and validation. Our goal is to examine the relationships between credit card and features. In addition to the report, we make a dashboard which may give a quick view of the whole project. The link is shown below: 
 https://mia123.shinyapps.io/fraud-detection-dashboard/
 
+When it comes to running the code, since the cleaned data fraudTest_clean.csv is uploaded and raw datasets are too large, you may directly load the cleaned data and skipped data cleaning parts (2-5) and directly run the code beginning with part 6, after you run imports part, which is part 1.
